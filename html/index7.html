@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>聚划算切换城市</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="stylesheet" type="text/css" href="../css/base.css"/>
+        <style type="text/css">
+        html { overflow-x: hidden; font-size:100px; }
+        /*header*/
+        header{width:6.4rem;height:1rem;background:-webkit-linear-gradient(#fdfdfd,#ededed);border-top: 1px solid #c5c5c5; }
+        header .btn{ width:1.2rem; height: 0.56rem;border-radius: 1rem; text-align: center; font-size: 0.22rem; margin: 0.23rem 1rem 0rem 0.22rem;}
+        h1{width: 1.5rem; line-height: 0.4rem; /*background: url(../img/logo.png) no-repeat;*/background-size:cover; margin-top: 0.3rem; text-align: center;font-size: 0.26rem;}
+        header h1 a{width: 100%;height: 100%; display: block; color: #333333;}
+        /* shop */
+        .shop{width: 6.4rem;margin: 0.28rem 0 0.30rem 0.20rem;}
+        .shop span{background:url(../img/4.png) no-repeat;width: 0.22rem; height:0.26rem;background-size:0.22rem 0.26rem;margin-right:0.22rem;}
+        .shop p{font-size:0.26rem;}
+        .shop b{color:#324f85;font-size:0.26rem; margin-left:2.30rem;}
+        /* shop1 */
+        .shop1{width:6.4rem;}
+        .shop1 .show{background:#eeeeee ; color:#999999;font-size:0.30rem;padding-left: 0.20rem; border-bottom:1px solid #dedede; text-align:left; line-height:0.60rem;}
+
+        </style>
+        <script type="text/javascript">
+            ;(function (win,doc){
+                function changeSize(){
+                    doc.documentElement.style.fontSize=50*doc.documentElement.clientWidth/320+'px';
+                }
+                changeSize();
+                win.addEventListener('resize',changeSize,false);
+            })(window,document);
+        </script>
+    </head>
+    <body>
+    <!--header-->
+    <header class="clearfix">
+        <a href="javascript:;"><input type="button" id="" value="返回" class="btn fl" /></a>
+        <h1 class="fl"><a href="javascript:;" class="header-a1">切换城市</a></h1>
+    </header>
+    <!--shop-->
+    <div class="shop clearfix">
+        <span class="fl"></span>
+        <p class="fl">当前位置-杭州</p>
+        <b class="fl">✔</b>
+    </div> 
+
+    <div class="shop1">
+        <ul class="clearfix">
+            <li class="show">热门城市</li>
+            <li>南京</li>
+            <li>福州</li>
+            <li>武汉</li>
+            <li>天津</li>
+        </ul>
+    </div>
+
+    </body>
+</html>

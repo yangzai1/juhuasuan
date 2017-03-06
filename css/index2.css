@@ -1,0 +1,36 @@
+/*header*/
+header{width:6.4rem;height:1rem;background:-webkit-linear-gradient(#fdfdfd,#ededed);border-top: 1px solid #c5c5c5; }
+header .btn{ width:1.2rem; height: 0.56rem;border-radius: 1rem; text-align: center; font-size: 0.22rem; margin: 0.23rem 1rem 0rem 0.22rem;}
+h1{width: 1.5rem; height: 0.4rem; background: url(../img/logo.png) no-repeat;background-size:cover; margin-top: 0.3rem;z-index: -9999em;}
+header h1 a{width: 100%;height: 100%; display: block;}
+header .btn1{ width:0.96rem; height: 0.56rem;border-radius: 0.2rem; text-align: center; font-size: 0.22rem; margin: 0.22rem 0.20rem 0rem 0.22rem;}
+
+/*title*/
+.title{width: 6.4rem;}
+.title ul{width:100%; border-bottom:1px solid #dcdcdc;}
+.title li{width:1.58rem; text-align: center;line-height: 0.8rem; border-right:1px solid #dcdcdc;float: left; }
+.title li a{color: #999999;font-size: 0.22rem; width: 100%; height: 100%;}
+.title .on a{color: #d51942;} 
+.title .li1{border-right: none;}
+
+/*content*/	
+.content{width: 6.4rem;border-bottom: 1px solid #dcdcdc;position: relative;}
+.content .l{width: 2.38rem;line-height: 1.58rem; border: 1px solid #dcdcdc;margin: 0.20rem;text-align: center; }
+.content img{width: 2.24rem; height: 1.44rem; }
+.content .r{width: 3.4rem; text-align: center; }
+.content .ding{position:absolute;top: 1.5rem; right: 2.72rem;font-size: 0.24rem; width: 0.80rem;line-height: 0.30rem; text-align:center;background: #ee8800; color: #fff;}
+.content .r .p1{width: 3rem; margin-top: 0.20rem; font-size: 0.26rem;line-height: 0.44rem;}
+.content .r .p1 i{color: #d51938; font-style: normal;}
+.content .r .p2{font-size: 0.26rem; text-align: left;color: #d51938;}
+.content .r .p2 span{color: #999999; font-size: 0.2rem; text-decoration: line-through;}
+.content .r .p3{ text-align: left;color: #999999; font-size: 0.18rem; line-height: 0.26rem;}
+
+/*footer*/
+.footer2 .c{width: 6.4rem;line-height: 0.88rem; background: #f8f8f8;}
+.footer2 .c a{color: #000; float: left; text-align: center;margin-left: 0.48rem;font-size: 0.22rem;}
+.footer2 .bot{margin-right: 0.64rem; font-size: 0.22rem;}
+.footer2 li i{margin:0.38rem 0 0 0.19rem;display:inline-block;height: 0; width:0rem;border: 0.09rem solid #f8f8f8;border-top:0rem solid #f8f8f8;border-bottom: 0.09rem solid #999;}
+
+.footer3{width: 6.4rem; background: #eeeeee;text-align: center;}
+.footer3 a{color: #000; margin-left: 0.26rem;line-height: 0.88rem; font-size: 0.26rem;}
+.footer3 p{color: #999999; font-size: 0.22rem;}

@@ -1,0 +1,42 @@
+/* 
+* @Author: anchen
+* @Date:   2017-01-04 23:35:45
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-01-04 23:36:06
+*/
+/*header*/
+        header{width:6.4rem;height:1rem;background:-webkit-linear-gradient(#fdfdfd,#ededed);border-top: 1px solid #c5c5c5; }
+        header .btn{ width:1.2rem; height: 0.56rem;border-radius: 1rem; text-align: center; font-size: 0.22rem; margin: 0.23rem 1rem 0rem 0.22rem;}
+        h1{width: 1.5rem; line-height: 0.4rem; /*background: url(../img/logo.png) no-repeat;*/background-size:cover; margin-top: 0.3rem; text-align: center;font-size: 0.26rem;}
+        header h1 a{width: 100%;height: 100%; display: block; color: #333333;}
+        /* banner */
+        .banner{width: 6.4rem;height: 3.2rem;border-top: 1px solid #333333;position:relative; }
+        .banner img{width: 6.4rem;}
+        .ding1{position:absolute; left:0px;top:3.84rem; width: 6.4rem; height: 0.4rem; background:rgba(0,0,0,0.5);}
+        .ding1 p{color:#fff; font-size:0.22rem; margin:0.08rem 0 0 0.15rem;}
+        /* current */
+        .current{width: 6.4rem; border-bottom:1px solid #dcdcdc;background:-webkit-linear-gradient(#ffffff,#ffffff); text-align:center; line-height:0.88rem;}
+        .current a img{width:1.12rem; margin-left:0.20rem;}
+        .current div .p1{font-size:0.42rem; color:#c7223d;font-weight:bold;margin-right:0.1rem; }
+        .current div .p2{margin-right:0.44rem;line-height:0.3rem;margin-top:0.18rem;}
+        .current div .p2 .span1{color:#999999;}
+        .current div .p2 .span2{color:#c7223d;}
+        /*content*/ 
+        .content{width: 6.4rem;border-bottom: 1px solid #dcdcdc;position: relative;}
+        .content .l{width: 2.38rem;line-height: 1.58rem; border: 1px solid #dcdcdc;margin: 0.20rem;text-align: center; }
+        .content img{width: 1.55rem; height: 1.32rem; }
+        .content .r{width: 3.4rem; text-align: center; }
+        .content .r .p1{width: 3rem; margin-top: 0.20rem; font-size: 0.26rem;line-height: 0.44rem;}
+        .content .r .p2{font-size: 0.26rem; text-align: left;color: #d51938;}
+        .content .r .p2 span{color: #999999; font-size: 0.2rem; text-decoration: line-through;}
+        .content .r .p3{ text-align: left;color: #999999; font-size: 0.18rem; line-height: 0.26rem;}
+         /*footer*/
+        .footer2 .c{width: 6.4rem;line-height: 0.88rem; background: #f8f8f8;}
+        .footer2 .c a{color: #000; float: left; text-align: center;margin-left: 0.48rem;font-size: 0.22rem;}
+        .footer2 .bot{margin-right: 0.64rem; font-size: 0.22rem;}
+        .footer2 li i{margin:0.38rem 0 0 0.19rem;display:inline-block;height: 0; width:0rem;border: 0.09rem solid #f8f8f8;border-top:0rem solid #f8f8f8;border-bottom: 0.09rem solid #999;}
+
+        .footer3{width: 6.4rem; background: #eeeeee;text-align: center;}
+        .footer3 a{color: #000; margin-left: 0.26rem;line-height: 0.88rem; font-size: 0.26rem;}
+        .footer3 p{color: #999999; font-size: 0.22rem;}
+  
